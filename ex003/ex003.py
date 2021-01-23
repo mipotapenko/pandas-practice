@@ -14,13 +14,15 @@ ser = pd.Series(mydict)
 
 # My Solution
 
+import sys
+print(sys.path)
+
+import helper_funcs as hf
+
 df = ser.reset_index()
 
-exercise = "003"
-result_path = "ex" + exercise + "-result.txt"
+hf.write_results_str("003", [df])
 
-with open(result_path, "w") as result_file:
-	result_file.write(str(df))
-	result_file.write("\n")
+
 
 
