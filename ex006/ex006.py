@@ -15,7 +15,7 @@ import numpy as np
 
 ser_diff = pd.Series(np.setdiff1d(ser1, ser2))
 
-# Solution on websit offers the following:
+# Solution on website offers the following:
 # ser1[~ser1.isin(ser2)]
 # the "[]" is syntactic sugar for __get_item__. It can take a boolean array
 # of the same length to determine which elements should be returned
