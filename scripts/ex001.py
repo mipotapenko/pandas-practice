@@ -1,12 +1,10 @@
-#!/bin/python3
-
 # 1. How to import pandas and check the version?
 
 import numpy as np
 import pandas as pd
 
-excercise = "001"
-result_path = "ex" + excercise + "-result.txt"
+exercise = "001"
+result_path = "ex" + exercise + "-result.txt"
 
 pd.show_versions(as_json=result_path)
 

@@ -1,5 +1,3 @@
-#!/bin/python3
-
 # 5. How to assign name to the series’ index?
 
 # Input

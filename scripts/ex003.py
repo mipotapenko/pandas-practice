@@ -1,5 +1,3 @@
-#!/bin/python3
-
 # 3. How to convert the index of a series into a column of a dataframe?
 
 # Input
@@ -13,9 +11,6 @@ mydict = dict(zip(mylist, myarr))
 ser = pd.Series(mydict)
 
 # My Solution
-
-import sys
-print(sys.path)
 
 import helper_funcs as hf
 
