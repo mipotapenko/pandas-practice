@@ -15,4 +15,4 @@ summary_series = ser.describe()
 # Also possible is
 # print(ser.quantile([0, 0.25, 0.5, 0.75, 1.0]))
 print(summary_series)
-hf.write_results_str("008", summary_series)
+hf.write_results_str("008", [ser, summary_series])
